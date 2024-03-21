@@ -1,0 +1,166 @@
+.div-1{
+    border: 1px solid black;
+    margin:10px;
+}
+
+.div_2{
+    border: 1px solid black;
+    margin:10px;
+   
+
+}
+
+.main_container li{
+
+    color:green;
+}
+
+/* style the first p tag after the ul */
+ul + p {
+    color:blue;
+}
+
+/* style the all p tag after the ul */
+ul ~ p {
+    color:blue;
+}
+/* Only style the paragraph having the class regular-text */
+p[class = "regular-text"]{
+    color: red;
+}
+
+.regular-text{
+    color: rosybrown;
+}
+
+.box1{
+    border: 1px solid green;
+    padding: 20px;
+    color: green;
+}
+
+.box2{
+    color: blue;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.box{
+    width:200px;
+    height: 200px;
+}
+
+button{
+    background-color: navy;
+    color: #fff;
+    border: 1px solid black;
+    padding: 20px;  
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.box1 p{
+    color: darkgreen;
+}
+
+p{
+    color:red;
+}
+
+.main-text{
+    color: blue;
+}
+
+#first-paragraph{
+    color: green;
+}
+
+div p{
+    color: red;
+}
+div .main-text{
+    color: red;
+}
+
+div #first-paragraph{
+    color: red;
+}
+
+div > p{
+    color: aliceblue;
+}
+
+.main-cointainer > p{
+    color: aqua;
+}
+
+.main-cointainer > #first-paragraph{
+    color: red;
+}
+
+div li{
+    color: blueviolet;
+}
+
+/* ID Selectors = 1
+Class Selectors = 0
+Tag Selectors = 0 */
+
+#list-item-1{
+    color: greenyellow;
+}
+
+.list-item{
+    color: bisque;
+}
+
+/* The precedence of CSS tag, class and id. tag is the lowest preference and id is the highest preference */
+/* ID Selectors = 1
+Class Selectors = 0
+Tag Selectors = 1 */
+
+ol #list-item1{
+    color: blue;
+}
+
+.box2 p{
+    color: blue;
+}
+
+/* No. of id selectors - 2
+No. of class selectors -0
+No. of tag selectors - 0
+specificality -200 */
+
+.my-container .my-text{
+    color: red;
+}
+
+.container-id .text-id{
+    color: orange;
+}
+
+/* No. of id selectors - 1
+No. of class selectors -0
+No. of tag selectors - 1
+specificality -101 */
+
+#para{
+    color: orange !important;
+    padding: 50px !important; 
+}
+
+.new_text{
+    background-color: navy;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 2);
+    border: 5px solid green;
+}

@@ -1,0 +1,17 @@
+div{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    background: red;
+    border: 5px solid black;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    line-height: 120px;
+    display: inline-block;
+    margin: 20px;
+    box-sizing: border-box;
+}
